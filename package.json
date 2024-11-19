@@ -1,0 +1,23 @@
+{
+  "name": "msc-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "ayo adewumi",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "gh-pages": "^6.2.0",
+    "three": "^0.167.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.21.0"
+  }
+}

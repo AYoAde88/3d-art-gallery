@@ -1,0 +1,78 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  min-height: 100%;
+}
+
+.content-wrap{
+  width: 100%;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card{
+  height: 650px; 
+
+}
+
+.custom-card img{
+  object-fit: cover;
+  height: 100%;
+}
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+  background: linear-gradient(to right, #f00, #0f0, #00f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.carousel-item-custom {
+  height: 650px; 
+}
+
+.carousel-item-custom img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.colorful{
+  background: linear-gradient(to right, #f00, #00f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#africa{
+  background: linear-gradient(to right, #f00, #00f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-page{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #d8d8d8;
+  padding: 1rem 0;
+}
+
+.footer .footer-magic > li > a:hover,
+.footer .footer-magic > li > a:focus {
+  background: linear-gradient(to right, #f00, #0f0, #00f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
